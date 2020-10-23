@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="../styles/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="../styles/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="../styles/form.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;800&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title>Formulario</title>    
+    </head>
+    <body>
+        <main role="main">
+          <section>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+              <a id="inicio" class="navbar-brand" href="../index.html">Pingüino Emperador</a>
+              <button id="boton-barra" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          
+              <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a id="principal" class="nav-link" href="principal.html">Principal <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a id="tabla" class="nav-link" href="tabla.html">Tabla</a>
+                  </li>
+                  <li class="nav-item">
+                    <a id="video" class="nav-link" href="video.html">Video</a>
+                  </li>
+                  <li class="nav-item">
+                    <a id="form" class="nav-link" href="#">Formulario</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </section>
+          <header id="encabezado" >
+            <img src="../images/batmanbannerdos.jpeg" alt="Batman" width="100%" height="150px">               
+          </header>
+          <section id="contenido">
+            <div id="titulo" >
+              <h2>Formulario de inscripción</h2>
+              <h4>¿Realmente tienes lo que se necesita para ser un superheroe?</h4>
+            </div>
+            <div id="div-form" >
+              <form action="" method="get" class="formulario" onsubmit="return enviarDatos()">
+                <div class="formulario">
+                  <label for="nombre">Nombre: </label>
+                  <input type="text" name="nombre" id="nombre" required>
+                </div>
+                <div class="formulario">
+                  <label for="edad">Edad: </label>
+                  <input type="number" name="edad" id="edad" required min="1" max="99">
+                </div>
+                <div class="formulario">
+                  <label for="direccion">Dirección: </label>
+                  <input type="text" name="direccion" id="direccion" required>
+                </div>
+                <div class="formulario">
+                  <label for="telefono">Teléfono: </label>
+                  <input type="tel" name="telefono" id="telefono" required pattern="[0-9]{3}-[0-9]{7}">
+                  <small>Format: 123-7890123</small>
+                </div>
+                <div class="formulario">
+                  <label for="email">Email: </label>
+                  <input type="email" name="email" id="email" required>
+                </div>
+                <div class="formulario">
+                  <label for="ciudad">Ciudad: </label>
+                  <input type="text" name="ciudad" id="ciudad" required>
+                </div>
+                <div class="formulario">
+                  <label for="poder">Superpoder: </label>
+                  <input type="text" name="poder" id="poder" required>
+                </div>
+                <div class="formulario">
+                  <label for="radio">Heroe o Villano:</label>
+                  <input type="radio" name="radio" id="radioH" required>Heroe
+                  <input type="radio" name="radio" id="radioV" required>Villano
+                </div>
+                <div class="formulario">
+                  <input type="submit" value="Enviar">
+                </div>
+              </form>
+            </div>
+          </section>
+          <section id="piepagina">
+            <p> <cite>Página de formulario</cite>, hecha por: &nbsp;&nbsp;&nbsp;&nbsp; Brayan Camilo Urrego Moreno</p>
+          </section>
+        </main>  
+    <script src="../scripts/form.js"></script>
+  </body>
+</html>

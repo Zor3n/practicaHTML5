@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+#encabezado{
+    margin-bottom: 25px;
+}
+
+#contenido{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#titulo{
+    border: 5px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: 97%;
+    margin-bottom: 25px;
+}
+
+#titulo h2{
+    color: black;
+    margin: 5px;
+}
+
+#pantalla-video{
+    border: 1px solid rgb(15, 99, 155);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+    width: 70%;
+}
+
+
+#piepagina{
+    color: white;
+    background-color: black;
+    border: solid black;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+#piepagina p{
+    font-size: medium;
+    line-height: 10px;
+    font-weight: 800;
+    margin: 10px;
+    padding: 10px;
+}

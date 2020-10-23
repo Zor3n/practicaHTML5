@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+#contenido{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto;
+    margin: 50px 30px;
+    font-weight: 800;
+}
+
+#piepagina{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+#piepagina p{
+    text-align: center;
+    background-color: black;
+    border: solid black;
+    border-radius: 10px;
+    color: white;
+    font-size: medium;
+    line-height: 10px;
+    font-weight: 800;
+    margin: 10px;
+    padding: 20px;
+    width: 60%;
+}

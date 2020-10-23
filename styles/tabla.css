@@ -1,0 +1,90 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+#encabezado{
+    margin-bottom: 25px;
+}
+
+#contenido{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+#titulo{
+    border: 5px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 0 100px 25px;
+    width: 97%;
+}
+
+#titulo h2{
+    margin: 5px;
+}
+
+table,
+td {
+    border: 1.5px solid #000000;
+}
+
+thead,
+tfoot {
+    background-color: #195cb3;
+    color: #fff;
+}
+
+#div-tabla{
+    display: flex;
+    justify-content: center;
+    width: 95%;
+}
+
+#table{
+    border-collapse: separate;
+    border-spacing: 5px;
+    font-size: medium;
+    table-layout: auto;
+    width: 100%;
+}
+
+#table th{
+    color: white;
+    font-weight: 800;
+    font-size: large;
+    padding: 5px;
+    text-align: center;
+}
+
+#table td{
+    color: black;
+    font-weight: 500;
+    padding: 5px;
+    text-align: center;
+}
+
+#piepagina{
+    color: white;
+    background-color: black;
+    border: solid black;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+#piepagina p{
+    font-size: medium;
+    line-height: 10px;
+    font-weight: 800;
+    margin: 10px;
+    padding: 10px;
+}
